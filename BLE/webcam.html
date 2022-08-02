@@ -1,0 +1,66 @@
+
+
+
+<form>
+    <button>Connect with BLE device</button>
+  </form>
+  
+  <script>
+    var deviceName = 'BP2941'
+  
+    function isWebBluetoothEnabled() {
+      if (!navigator.bluetooth) {
+        console.log('Web Bluetooth API is not available in this browser!')
+        return false
+      }
+  
+      return true
+    }
+  
+    function getDeviceInfo() {
+      let options = {filters:[
+        { "name": deviceName }
+        // {services: ['heart_rate']},
+        // {services: ['0000fff1-0000-1000-8000-00805f9b34fb']},
+        // {services: ['0000fff2-0000-1000-8000-00805f9b34fb']}
+      ]}
+  
+      console.log('Requesting Bluetooth Device...')
+      navigator.bluetooth.requestDevice(options).then(device => {
+        console.log('> Name: ' + device.name)
+        console.log(device)
+
+        // return device.gatt.connect();
+
+      }).then(server => server.getPrimaryService('0000fff2-0000-1000-8000-00805f9b34fb')
+
+      .then(service => service.getCharacteristic('0000fff1-0000-1000-8000-00805f9b34fb'))
+      .then(characteristic => characteristic.startNotifications())
+      .then(characteristic => {
+        characteristic.addEventListener('characteristicvaluechanged',handleCharacteristicValueChanged);
+        console.log('Notifications have been started.');
+    })
+    )
+    .catch(error => {
+        console.log('Argh! ' + error)
+      })
+    }
+  
+    document.querySelector('form').addEventListener('submit', function(event) {
+      event.stopPropagation()
+      event.preventDefault()
+  
+      if (isWebBluetoothEnabled()) {
+        getDeviceInfo()
+      }
+    })
+
+    function handleCharacteristicValueChanged(event) {
+    const value = event.target.value;
+    console.log('Received ' + value);
+    // TODO: Parse Heart Rate Measurement value.
+    // See https://github.com/WebBluetoothCG/demos/blob/gh-pages/heart-rate-sensor/heartRateSensor.js
+  }
+  </script>
+
+  <!-- <script src="blueTest.js"></script> -->
