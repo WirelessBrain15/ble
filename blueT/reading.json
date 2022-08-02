@@ -1,0 +1,74 @@
+[                 ][LE]> connect 59:4B:00:00:B6:96
+Attempting to connect to 59:4B:00:00:B6:96
+[59:4B:00:00:B6:96][LE]> [K[0;91mError: [0mconnect error: Function not implemented (38)
+[59:4B:00:00:B6:96][LE]> char-write-req 1a 0002034045
+[0;91mCommand Failed: [0mDisconnected
+[59:4B:00:00:B6:96][LE]> e[Kchar-write-req 1a 0002034045
+[0;91mCommand Failed: [0mDisconnected
+[59:4B:00:00:B6:96][LE]> char-write-req 1a 0002034045
+[0;91mCommand Failed: [0mDisconnected
+[59:4B:00:00:B6:96][LE]> connect 59:4B:00:00:B6:96
+Attempting to connect to 59:4B:00:00:B6:96
+[59:4B:00:00:B6:96][LE]> [KConnection successful
+[0;94m[59:4B:00:00:B6:96][0m[LE]> char-write-req 1a 0002034045
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KCharacteristic value was written successfully
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 00 01 01 02 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 00 4e ff 53 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 00 4e f3 47 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 00 4e ef 43 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 00 4e f2 46 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 4e f0 45 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 4e ef 44 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 4e ee 43 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 4e f0 45 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 4e ef 44 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 4e ef 44 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 40 ee 35 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d ee 32 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d ef 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d ee 32 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d ee 32 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d ef 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3d f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3c f0 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c ef 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3c f2 35 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 01 3c f2 35 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c ef 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c ef 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c ed 31 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c f1 35 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c f1 35 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c f0 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c ef 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c ef 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3b f0 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3c f1 35 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3b f0 33 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3b f1 34 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3b f2 35 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3b ef 32 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 02 3a ee 30 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 03 3b ed 31 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 03 3a ed 30 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 03 3a ed 30 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 03 3a ee 31 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 03 3a ef 32 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 03 03 03 3a ee 31 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 02 01 03 06 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 02 01 03 06 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 02 01 03 06 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 02 01 03 06 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 02 01 03 06 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KNotification handle = 0x0017 value: 0a 01 55 60 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> char-read-hnd 15[K[K17
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [KCharacteristic value/descriptor: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[0;94m[59:4B:00:00:B6:96][0m[LE]> [10P[59:4B:00:00:B6:96][LE]> exit
